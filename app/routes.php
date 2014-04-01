@@ -15,3 +15,5 @@ Route::get('/', function()
 {
 	return View::make('startpage');
 });
+
+Route::get('/test', 'TestController@showWelcome');
