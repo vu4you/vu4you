@@ -19,7 +19,7 @@
 			margin-top: 10%;
 			-moz-box-shadow: 0 0 30px 2px black, 40px -30px lime, 40px 30px 50px red, -40px 30px yellow, -40px -30px 50px blue;
 			-webkit-box-shadow: 0 0 30px 2px black, 40px -30px lime, 40px 30px 50px red, -40px 30px yellow, -40px -30px 50px blue;
-			box-shadow: 0 0 30px 2px black, 150px 80px 130px lime, 130px -80px 50px red, -130px -80px 130px yellow, -150px 80px 50px blue;
+			box-shadow: 0 0 30px 2px black, 40px -30px lime, 40px 30px 50px red, -40px 30px yellow, -40px -30px 50px blue;
 		}
 
 		a, a:visited {
