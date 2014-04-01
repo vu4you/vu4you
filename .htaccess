@@ -1,13 +1,5 @@
 <IfModule mod_rewrite.c>
-    <IfModule mod_negotiation.c>
-        Options -MultiViews
-    </IfModule>
-
-    RewriteEngine On
-    
-  
-
-    # Handle Front Controller....
-RewriteCond %{REQUEST_URI} !/(styles|images|scripts)/
-    RewriteRule ^(.*) public/index.php [L]
+    RewriteEngine on
+    RewriteCond %{REQUEST_URI} !^public
+    RewriteRule ^(.*)$ public/$1 [L]
 </IfModule>
