@@ -16,4 +16,5 @@ Route::get('/', function()
 	return View::make('startpage');
 });
 
-Route::get('/test', 'TestController@showWelcome');
+Route::get('/start', 'StartController@start');
+Route::get('/about', 'AboutController@index');

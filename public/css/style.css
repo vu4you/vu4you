@@ -1,0 +1,21 @@
+body{
+	background:#FFFFFF;
+	color:#534a38;
+}
+.banner{
+
+}
+.banner img{
+	width:100%;
+	height: auto;
+}
+.menu{
+	background: #fbb03b;
+	color: #ffffff;
+	padding: 10px;
+margin-top:40px;
+}
+.menu a{
+	padding: 10px;
+	color: #ffffff;
+}
