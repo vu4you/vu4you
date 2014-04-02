@@ -38,9 +38,10 @@
 </head>
 <body>
 	<div class="welcome">
-		<h1>Vi Unga 4 You</h1>
-			<br/>
+		<h1>Vi Unga 4you</h1>
 			<h2>Hemsidan är under konstruktion.</h2>
+			<h4><a href="http://facebook.com/viunga4you">Glid in på vår facebooksida så länge</a></h4>
+			<br />
 		
 	</div>
 </body>

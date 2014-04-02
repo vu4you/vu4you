@@ -13,7 +13,7 @@
 
 Route::get('/', function()
 {
-	return View::make('startpage');
+	return View::make('maintenance');
 });
 
 Route::get('/start', 'StartController@index');
