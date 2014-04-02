@@ -16,5 +16,11 @@ Route::get('/', function()
 	return View::make('startpage');
 });
 
-Route::get('/start', 'StartController@start');
-Route::get('/about', 'AboutController@index');
+Route::get('/start', 'StartController@index');
+Route::get('/om_oss', 'AboutController@index');
+Route::get('/kontakta', 'ContactController@index');
+
+
+Route::get('/verksamheter', 'ActivitiesController@index');
+Route::get('/verksamheter/lan', 'ActivitiesController@lan');
+Route::get('/verksamheter/warhammer', 'ActivitiesController@warhammer');

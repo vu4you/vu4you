@@ -3,9 +3,9 @@
 class StartController extends BaseController {
 
 	
-	public function start()
+	public function index()
 	{
-		return View::make('start/start');
+		return View::make('start/index');
 	}
 
 }

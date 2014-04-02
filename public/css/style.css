@@ -9,13 +9,7 @@ body{
 	width:100%;
 	height: auto;
 }
-.menu{
+.navbar-menu{
 	background: #fbb03b;
-	color: #ffffff;
-	padding: 10px;
-margin-top:40px;
-}
-.menu a{
-	padding: 10px;
 	color: #ffffff;
 }
