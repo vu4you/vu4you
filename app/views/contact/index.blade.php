@@ -13,8 +13,8 @@
 
   				<?php $count++ ?>
     			<div class="col-sm-6 col-md-4 contact-thumb">
-      				<img class="col-md-12" src="http://placekitten.com/g/300/200" alt="..." />
-      				<div class="col-md-12">
+      				<img style="width: 100%; height:auto;"src="http://placekitten.com/g/300/200" alt="..." />
+      				<div>
         				<h3>{{{$contact['name']}}} <small style="white-space:nowrap;">{{{$contact['role']}}}</small></h3>
         				<address>
         				@if (isset($contact['phone']))
