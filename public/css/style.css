@@ -1,3 +1,5 @@
+::selection {color:#534a38;background:#fbb03b;}
+::-moz-selection {color:#534a38;background:#fbb03b;}
 body{
 	background:#FFFFFF;
 	color:#534a38;
