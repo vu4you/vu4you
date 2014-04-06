@@ -19,8 +19,10 @@ Route::get('/', function()
 Route::get('/start', 'StartController@index');
 Route::get('/om_oss', 'AboutController@index');
 Route::get('/kontakta', 'ContactController@index');
+Route::get('/kalender', 'CalendarController@index');
 
 
-Route::get('/verksamheter', 'ActivitiesController@index');
+Route::get('/verksamheter/', 'ActivitiesController@index');
+Route::get('/verksamheter/onsdagar', 'ActivitiesController@openHouse');
 Route::get('/verksamheter/lan', 'ActivitiesController@lan');
 Route::get('/verksamheter/warhammer', 'ActivitiesController@warhammer');

@@ -7,6 +7,10 @@ class ActivitiesController extends BaseController {
 	{
 		return View::make('activities/index');
 	}
+	public function openHouse()
+	{
+		return View::make('activities/open_house');
+	}
 	public function warhammer()
 	{
 		return View::make('activities/warhammer');

@@ -12,13 +12,13 @@
 		<div class="collapse navbar-collapse" id="navbar-collapse-menu">
       		<ul class="nav navbar-nav">
 				<li><a href="{{action('StartController@index')}}">start</a></li>
-				<li><a href="{{action('AboutController@index')}}">om oss</a></li>
+        <li><a href="{{action('AboutController@index')}}">om oss</a></li>
+        <li><a href="{{action('CalendarController@index')}}">kalender</a></li>
 
 				<li class="dropdown">
           			<a href="{{action('ActivitiesController@index')}}" class="dropdown-toggle" data-toggle="dropdown">Verksamheter<b class="caret"></b></a>
           			<ul class="dropdown-menu">
-          				<li><a href="{{action('ActivitiesController@index')}}">Verksamheter</a></li>
-            			<li class="divider"></li>
+          				<li><a href="{{action('ActivitiesController@openHouse')}}">Onsdagar</a></li>
             			<li><a href="{{action('ActivitiesController@lan')}}">Lan</a></li>
             			<li><a href="{{action('ActivitiesController@warhammer')}}">Warhammer</a></li>
             		</ul>

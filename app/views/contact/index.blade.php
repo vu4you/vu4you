@@ -1,10 +1,9 @@
 @extends('layouts.master')
 
 
-
 @section('content')
-    <div class="page-header">
-  		<h1>Kontakta <small>kontaktuppgifter till styrelsen</small></h1>
+  <div class="page-header">
+  	<h1>Kontakta <small>kontaktuppgifter till styrelsen</small></h1>
 	</div>
 	<div class="row">
 		@if (isset($contacts))
