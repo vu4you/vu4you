@@ -16,6 +16,11 @@ Route::get('/', function()
 	return View::make('maintenance');
 });
 
+Route::get('/stadgar', function()
+{
+	return View::make('stadgar');
+});
+
 Route::get('/start', 'StartController@index');
 Route::get('/om_oss', 'AboutController@index');
 Route::get('/kontakta', 'ContactController@index');
