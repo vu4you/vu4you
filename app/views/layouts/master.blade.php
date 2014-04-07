@@ -16,7 +16,7 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-	</head>
+	</head> 
     <body>
     	@include('shared/banner')
     	@include('shared/menu')
@@ -33,6 +33,7 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-40027679-1', 'vu4you.se');
+  ga('require', 'displayfeatures');
   ga('send', 'pageview');
 
 </script>
